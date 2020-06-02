@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php-amqplib/php-amqplib": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "application\\controllers",
+            "interfaces\\": "application\\interfaces",
+            "core\\": "application\\core",
+            "models\\": "application\\models",
+            "senders\\": "application\\senders"
+        },
+        "files": [
+            "application/config/Rabbit_config.php"
+        ]
+    }
+}
